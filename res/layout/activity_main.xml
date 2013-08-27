@@ -1,0 +1,138 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/auto"
+    android:id="@+id/mainTableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="0.5dp"
+    tools:context=".MainActivity" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="0.5dp"
+        android:layout_weight="1" >
+
+        <com.shashank.smartrail.customviews.ButtonPlus
+            android:id="@+id/buttonYourSpeed"
+            style="@style/CustomFont"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_your_speed"
+            android:gravity="bottom|center_horizontal"
+            android:padding="4dp"
+            android:text="@string/button_your_speed"
+            android:textColor="@android:color/white" />
+
+        <com.shashank.smartrail.customviews.ButtonPlus
+            android:id="@+id/buttonPnrStatus"
+            style="@style/CustomFont"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_pnr_status"
+            android:gravity="bottom|center_horizontal"
+            android:padding="4dp"
+            android:text="@string/button_pnr_status"
+            android:textColor="@android:color/white" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="0.5dp"
+        android:layout_weight="1" >
+
+        <com.shashank.smartrail.customviews.ButtonPlus
+            android:id="@+id/buttonFindTrain"
+            style="@style/CustomFont"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_find_train"
+            android:gravity="bottom|center_horizontal"
+            android:padding="4dp"
+            android:text="@string/button_find_train"
+            android:textColor="@android:color/white" />
+
+        <com.shashank.smartrail.customviews.ButtonPlus
+            android:id="@+id/buttonSeatAvailability"
+            style="@style/CustomFont"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_seat_availability"
+            android:gravity="bottom|center_horizontal"
+            android:padding="4dp"
+            android:text="@string/button_seat_availability"
+            android:textColor="@android:color/white" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="0.5dp"
+        android:layout_weight="1" >
+
+        <com.shashank.smartrail.customviews.ButtonPlus
+            android:id="@+id/buttonTrainRoute"
+            style="@style/CustomFont"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_train_route"
+            android:gravity="bottom|center_horizontal"
+            android:padding="4dp"
+            android:text="@string/button_train_route"
+            android:textColor="@android:color/white" />
+
+        <com.shashank.smartrail.customviews.ButtonPlus
+            android:id="@+id/buttonFairFinder"
+            style="@style/CustomFont"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_fare_finder"
+            android:gravity="bottom|center_horizontal"
+            android:padding="4dp"
+            android:text="@string/button_fair_finder"
+            android:textColor="@android:color/white" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <com.shashank.smartrail.customviews.ButtonPlus
+            android:id="@+id/buttonMyTrain"
+            style="@style/CustomFont"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_my_train"
+            android:gravity="bottom|center_horizontal"
+            android:padding="4dp"
+            android:text="@string/button_my_train"
+            android:textColor="@android:color/white" />
+
+        <com.shashank.smartrail.customviews.ButtonPlus
+            android:id="@+id/buttonSeatMap"
+            style="@style/CustomFont"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_seat_map"
+            android:gravity="bottom|center_horizontal"
+            android:padding="4dp"
+            android:text="@string/button_seat_map"
+            android:textColor="@android:color/white" />
+    </TableRow>
+
+</TableLayout>

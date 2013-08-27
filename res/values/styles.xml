@@ -1,0 +1,19 @@
+<resources>
+
+    <style name="Theme.SmartTrain.BaseTheme" parent="@style/Theme.Sherlock.Light">
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <item name="android:actionBarStyle">@style/Widget.SmartTrain.ActionBar</item>
+        <item name="actionBarStyle">@style/Widget.SmartTrain.ActionBar</item>
+    </style>
+
+    <style name="Widget.SmartTrain.ActionBar" parent="Widget.Sherlock.ActionBar">
+        <item name="android:background">@drawable/action_bar_background</item>
+        <item name="background">@drawable/action_bar_background</item>
+    </style>
+
+    <style name="CustomFont" parent="@android:style/TextAppearance">
+        <item name="customFont">digistrip_b.ttf</item>
+    </style>
+
+</resources>

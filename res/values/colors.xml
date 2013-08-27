@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="smarttrain__ab_gradient_start">#e2c534</color>
+    <color name="smarttrain__ab_gradient_end">#c49805</color>
+    <color name="smarttrain__ab_bottom_line">#c49805</color>
+
+    <!-- THEME colors -->
+    <color name="smarttrain__your_speed_normal">#af4d4b</color>
+    <color name="smarttrain__your_speed_selected">#7a3634</color>
+    <color name="smarttrain__pnr_status_normal">#c3623c</color>
+    <color name="smarttrain__pnr_status_selected">#88442a</color>
+    <color name="smarttrain__find_train_normal">#0877a5</color>
+    <color name="smarttrain__find_train_selected">#065373</color>
+    <color name="smarttrain__seat_availability_normal">#159ed7</color>
+    <color name="smarttrain__seat_availability_selected">#0f6e96</color>
+    <color name="smarttrain__train_route_normal">#91af4f</color>
+    <color name="smarttrain__train_route_selected">#657a37</color>
+    <color name="smarttrain__fair_finder_normal">#9ac07e</color>
+    <color name="smarttrain__fair_finder_selected">#6b8658</color>
+    <color name="smarttrain__my_train_normal">#485160</color>
+    <color name="smarttrain__my_train_selected">#323943</color>
+    <color name="smarttrain__seat_map_normal">#5a6270</color>
+    <color name="smarttrain__seat_map_selected">#3f444e</color>
+
+</resources>

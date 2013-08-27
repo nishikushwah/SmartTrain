@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SmartRail</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="button_your_speed">Your Speed</string>
+    <string name="button_pnr_status">PNR Status</string>
+    <string name="button_find_train">Find Train</string>
+    <string name="button_seat_availability">Seat Availability</string>
+    <string name="button_train_route">Train Route</string>
+    <string name="button_fair_finder">Fair Finder</string>
+    <string name="button_my_train">My Train</string>
+    <string name="button_seat_map">Seat Map</string>
+    
+</resources>
